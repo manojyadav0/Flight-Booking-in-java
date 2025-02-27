@@ -6,13 +6,18 @@ How the Code Runs Step by Step
 The main() method initializes a Scanner object for user input.
 A do-while loop runs until the user selects the option to exit (4).
 It calls displayMainMenu() and takes user input to decide the next operation.
-2. Main Menu Functionalities
+
+
+3. Main Menu Functionalities
 Option 1: Register a User
 
 The register(Scanner scanner) method asks for username, email, and password.
 A new User object is created and added to the users array.
 The userIdCounter ensures each user gets a unique ID.
 The program prints "Registration successful!".
+
+
+
 Option 2: User Login
 
 The login(Scanner scanner) method asks for email and password.
@@ -27,6 +32,8 @@ Unique flight IDs are assigned using flightIdCounter++.
 Option 4: Exit
 
 The program prints "Thank you for using the Flight Booking System. Goodbye!" and exits.
+
+
 3. User Menu Functionalities
 After logging in, the userMenu() method presents the following options:
 
